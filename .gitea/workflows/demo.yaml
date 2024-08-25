@@ -1,0 +1,17 @@
+name: Gitea Actions Demo
+on:
+  push:
+jobs:
+  Explore-Gitea-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/login-action@v3
+        with:
+          registry: localhost:22345
+          username: testbloodline
+          password: 12345678
+      - run: |
+          docker pull ghcr.io/apache/shardingsphere-proxy:latest
+          docker tag ghcr.io/apache/shardingsphere-proxy:latest localhost:22345/testbloodline/apache-shardingsphere-proxy:latest
+          docker push localhost:22345/testbloodline/apache-shardingsphere-proxy:latest

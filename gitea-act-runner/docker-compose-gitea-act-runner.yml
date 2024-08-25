@@ -1,0 +1,19 @@
+services:
+  gitea-act-runner-first:
+    image: gitea/act_runner:0.2.10
+    environment:
+      CONFIG_FILE: /config.yaml
+      GITEA_INSTANCE_URL: "http://gitea-server:22345"
+      GITEA_RUNNER_REGISTRATION_TOKEN: "JwdGJyCysWg0MkhM1B4NYuB6aWnkR06GKsqGGQM2"
+    volumes:
+      - ./config.yaml:/config.yaml
+      - gitea-act-runner-first-data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - gitea_gitea-tier
+volumes:
+  gitea-act-runner-first-data:
+  gitea-config:
+networks:
+  gitea_gitea-tier:
+    external: true
