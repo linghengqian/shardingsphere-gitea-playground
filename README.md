@@ -9,7 +9,7 @@
 # The So-Called Generic High Entropy Secret
 
 Some third-party tools will scan this Git to find Generic High Entropy Secret. 
-Content like `JwdGJyCysWg0MkhM1B4NYuB6aWnkR06GKsqGGQM2` is generated from a one-time Gitea instance, 
+Content like `xKjeIjAtf3isDfqs6BABb7xhqdbj6xO0N0GIwXc9` is generated from a one-time Gitea instance, 
 and the related Gitea instance has been destroyed. 
 The entire Git is only used to serve the interpretation of the relevant article.
 In fact, there is no Generic High Entropy Secret that needs to be removed.

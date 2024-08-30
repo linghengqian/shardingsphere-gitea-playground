@@ -4,7 +4,8 @@ services:
     environment:
       CONFIG_FILE: /config.yaml
       GITEA_INSTANCE_URL: "http://gitea-server:22345"
-      GITEA_RUNNER_REGISTRATION_TOKEN: "JwdGJyCysWg0MkhM1B4NYuB6aWnkR06GKsqGGQM2"
+      GITEA_RUNNER_REGISTRATION_TOKEN: "xKjeIjAtf3isDfqs6BABb7xhqdbj6xO0N0GIwXc9"
+      TZ: Asia/Shanghai
     volumes:
       - ./config.yaml:/config.yaml
       - gitea-act-runner-first-data:/data
