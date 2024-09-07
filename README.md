@@ -1,4 +1,4 @@
-# shardingsphere-gitlab-playground
+# shardingsphere-gitea-playground
 
 - This repository is the corresponding Git project of the
   article https://www.yuque.com/linghengqian/meve2v/ibzgu87kwyf7612i .
