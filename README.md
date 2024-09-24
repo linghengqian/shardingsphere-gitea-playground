@@ -2,6 +2,7 @@
 
 - This repository is the corresponding Git project of the
   article https://www.yuque.com/linghengqian/meve2v/ibzgu87kwyf7612i .
+- The blog post `通过 Gitea 使用 ShardingSphere 的 SNAPSHOT 版本` is located at https://www.yuque.com/linghengqian/meve2v/ibzgu87kwyf7612i , which introduces how to compile, upload and use the SNAPSHOT version of ShardingSphere through Docker Engine and Gitea. 🫎
 - I don't have the extra energy to translate the corresponding article into English.
 - If you find this article helpful, you can click an emoji for the discussion
   at https://github.com/apache/shardingsphere/discussions/12258#discussioncomment-10427297 .
